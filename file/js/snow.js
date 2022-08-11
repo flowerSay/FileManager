@@ -3936,8 +3936,7 @@ $(function () {
   var windowHalfY = window.innerHeight / 2;
   var particles = [];
   var particleImage = new Image();
-  particleImage.src =
-    "https://cdn.jsdelivr.net/gh/flowerSay/FileManager/image/white_snow.png"; //此处修改漂浮物（雪花）颜色，默认为白色
+  particleImage.src = "mypic/white_snow.png"; //此处修改漂浮物（雪花）颜色，默认为白色
   var snowNum = 360; //此处修改雪花数量,默认为360
 
   function init() {
